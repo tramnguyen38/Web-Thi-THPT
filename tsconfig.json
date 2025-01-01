@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "ES6",
     "module": "commonjs",
@@ -10,4 +11,11 @@
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
+=======
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+>>>>>>> ea21acdce818c49c97554f2d3612eeba1bf628d5
 }
